@@ -1,6 +1,22 @@
 {
-    "extends": "./tsconfig.base.json",
     "compilerOptions": {
+        "target": "ES2016",
+        "module": "commonjs",
+        "moduleResolution": "Node",
+        "lib": [
+            "es2017",
+            "es7",
+            "es6"
+        ],
+        "downlevelIteration": true,
+        "declaration": true,
+        "declarationMap": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "jsx": "react",
+        "skipLibCheck": true,
         "rootDir": "src",
         "outDir": "dist"
     },

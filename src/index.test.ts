@@ -1,5 +1,5 @@
 import { build } from 'esbuild'
-import { writeFiles } from 'test-support'
+import { writeFiles } from '../src/test-support'
 import fs from 'fs'
 import NodeModulesPolyfillsPlugin from '.'
 import NodeGlobalsPolyfillsPlugin from '@esbuild-plugins/node-globals-polyfill'
